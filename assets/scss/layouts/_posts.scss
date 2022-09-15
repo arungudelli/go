@@ -1,4 +1,10 @@
 .home .card,
+.newsletter .card,
+.contributors.list .card {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  transition: transform 0.3s;
+}
 .contributors.list .card,
 .blog.list .card,
 .blog.single .card,

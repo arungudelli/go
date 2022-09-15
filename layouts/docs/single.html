@@ -41,7 +41,8 @@
 				{{ end -}}
 			</div>
 			{{ partial "main/docs-navigation.html" . }}
-            
+			{{ partial "sidebar/newsletter.html" . -}}
+
 
 			{{ $path := printf "/authors/%s.md" .Params.author }}
 			{{ with .Site.GetPage $path }}
