@@ -2,7 +2,8 @@
 title: "Code Editors,plugins & IDEs for Go Language"
 description: "This article contains list of commonly used code editors for Go language."
 date: 2020-12-16T14:09:21+09:00
-draft: true
+draft: false
+type: docs
 link: "Code Editors"
 weitht: 2
 ---

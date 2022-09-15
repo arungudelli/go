@@ -2,7 +2,8 @@
 title: "How to Download & install Go Language in Windows OS"
 description: "Learn How to setup go programming language in Windows OS Environment"
 date: 2020-09-05T14:09:21+09:00
-draft: true
+draft: false
+type: docs
 link: "Windows"
 weight: 1
 ---
