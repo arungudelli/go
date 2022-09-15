@@ -1,5 +1,6 @@
 ---
 title: "Dibyanshu Mohanty"
+draft: true
 user: "dmohanty"
 photo: "/images/authors/DM.jpg"
 twitter: "DcodeM"

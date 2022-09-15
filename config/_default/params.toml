@@ -86,6 +86,11 @@ docsRepoSubPath = ""
 editPage = false
 lastMod = false
 
+# Set site log or disable
+siteLogo = false
+siteLogoLight = "/icon-logo.png"
+siteLogoWidth = "50px" # width adjustment or set 'auto'
+
 [sections]
   sectionNav = ["docs", "guides"]
 

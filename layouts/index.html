@@ -31,8 +31,11 @@
           <p>See What's happening around <a href="/news/" target="_blank">Go Language</a></p>
         </div>
       </div>
-      <!-- <div class="row justify-content-center text-center">
-        <div class="col-lg-5">
+      <div class="row justify-content-center text-center">
+        <div class="col-md-12 col-lg-10 col-xl-8">
+        {{ partial "sidebar/newsletter.html" . -}}
+      </div>
+        <!-- <div class="col-lg-5">
           <h2 class="h4">Full text search</h2>
           <p>Search your Doks site with FlexSearch. Easily customize index settings and search options to your liking.</p>
         </div>
@@ -43,8 +46,8 @@
         <div class="col-lg-5">
           <h2 class="h4">Dark mode</h2>
           <p>Switch to a low-light UI with the click of a button. Change colors with variables to match your branding.</p>
-        </div>
-      </div> -->
+        </div> -->
+      </div>
     </div>
   </section>
   {{ end }}
