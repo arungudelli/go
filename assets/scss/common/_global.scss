@@ -124,6 +124,11 @@ body {
     border-right: 1px solid $gray-200;
   }
 
+  .docs-toc{
+    border-left: 1px solid $gray-200;
+  }
+
+
   @supports ((position:-webkit-sticky) or (position:sticky)) {
     .docs-sidebar {
       position: -webkit-sticky;

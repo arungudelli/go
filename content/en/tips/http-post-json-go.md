@@ -4,7 +4,7 @@ date = "2021-01-23T14:09:21+09:00"
 description = "Golang's net/http package is used to make HTTP requests in Go.The HTTP POST method used to send data to a server and in most of the cases the data will be in JSON format."
 draft = "false"
 link = "http post json"
-enableToc = false
+enableToc = true
 image= "images/featured/golangpostimage.png"
 authorurl="https://www.arungudelli.com/"
 
