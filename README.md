@@ -1,10 +1,10 @@
-# Python Shiksha
+# Go Language Tutorial
 
 
-## Clone Python Shiksha 
+## Clone Go Language Tutorial Repository 
 
 ```
-git clone https://github.com/arungudelli/python.shiksha.git
+git clone https://github.com/arungudelli/go.git
 ```
 
 And navigate to the root folder then type the below command 
@@ -25,8 +25,6 @@ The site should be running on
 http://localhost:1313/
 ```
 
-## Adding new Python Tip
 
-Follow the existing articles in python tips folder for the mark down structure of the article. 
 
 
