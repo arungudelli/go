@@ -1,10 +1,10 @@
 {
     "manifest_version": 2,
-    "name": "Python Shiksha",
-    "short_name": "Python Shiksha",
+    "name": "Go language Tutorial",
+    "short_name": "Go language Tutorial",
     "version": "1.0.0",
     "default_locale": "en",
-    "description": "Python Shiksha",
+    "description": "Go language Tutorial",
     "start_url": "/",
      "icons": [
         {

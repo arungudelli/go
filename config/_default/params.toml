@@ -10,7 +10,7 @@ description = "Learn Go language from basics to advanced topics with simple deta
 # docsVersion = "0.3"
 
 ## Open Graph
-images = ["doks.png"]
+images = ["golangpostimage.png"]
 ogLocale = "en_US"
 domainTLD = "doks.netlify.app"
 titleHome = "Python Shiksha"
@@ -28,12 +28,12 @@ schemaAuthorTwitter = "https://twitter.com/arungudelli"
 schemaAuthorLinkedIn = "https://www.linkedin.com/in/arungudelli/"
 schemaAuthorGitHub = "https://github.com/arungudelli"
 schemaLocale = "en-US"
-schemaLogo = "logo-doks.png"
+schemaLogo = "golang-logo.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "doks.png"
-schemaImageWidth = 1280
-schemaImageHeight = 640
+schemaImage = "golangpostimage.png"
+schemaImageWidth = 1024
+schemaImageHeight = 768
 schemaTwitter = "https://twitter.com/golang_tutorial"
 schemaLinkedIn = ""
 schemaGitHub = "https://github.com/arungudelli/go"
