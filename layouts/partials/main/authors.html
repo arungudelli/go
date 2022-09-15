@@ -1,0 +1,19 @@
+<div class="row justify-content-center">
+  <div class="col-md-12 col-lg-10 col-xl-8">
+      <article id="list-main" class="m" data-dir="ltr">
+        <h1 class="text-center">{{ .Page.Params.title }}</h1>
+        <div class="single" data-display="block">
+          <article class="single__contents" data-dir="ltr">
+            {{ if not .IsNode }}
+            {{ partial "main/sections/authors-meta.html" . }}
+            {{ end }}
+            {{ partial "main/sections/authors-post.html" . }}
+          </article>
+        </div>  
+
+      </article>
+      
+    </div>
+  </div>
+
+  

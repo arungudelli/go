@@ -1,0 +1,35 @@
+{{ $.Scratch.Set "user" .Page.Params.user }}
+
+<div class="list-section">
+
+
+  {{ if .IsNode }}
+ 
+  {{ range (where .Site.Pages "Section" "authors") }}
+  {{ range .Pages }}
+  <div class="card-list">
+    <div class="card my-3">
+      <div class="card-body">
+        <a class="stretched-link" href="{{ .RelPermalink }}">{{ .Params.title | title }} &rarr;</a>
+      </div>
+    </div>
+    </div>
+  {{ end }}
+  {{ end }}
+  {{ end }}
+
+  {{ if not .IsNode }}
+  {{ range .Site.RegularPages }}
+  {{ if eq ($.Scratch.Get "user") .Params.Author }}
+  <div class="card-list">
+  <div class="card my-3">
+    <div class="card-body">
+      <a class="stretched-link" href="{{ .RelPermalink }}">{{ .Params.title | title }} &rarr;</a>
+    </div>
+  </div>
+  </div>
+
+  {{ end }}
+  {{end}}
+  {{end}}
+</div>

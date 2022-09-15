@@ -1,0 +1,188 @@
+[en]
+contentDir = "content/en"
+languageName = "English"
+weight = 5
+[en.params]
+languageTag = "en"
+
+[bg]
+contentDir = "content/bg"
+languageName = "Bulgarian"
+weight = 10
+[bg.params]
+languageTag = "bg"
+
+[cs]
+contentDir = "content/cs"
+languageName = "Czech"
+weight = 15
+[cs.params]
+languageTag = "cs"
+
+[da]
+contentDir = "content/da"
+languageName = "Danish"
+weight = 20
+[da.params]
+languageTag = "da"
+
+[de]
+contentDir = "content/de"
+languageName = "German"
+weight = 25
+[de.params]
+languageTag = "de"
+
+[el]
+contentDir = "content/el"
+languageName = "Greek"
+weight = 30
+[el.params]
+languageTag = "el"
+
+[es]
+contentDir = "content/es"
+languageName = "Spanish"
+weight = 45
+[es.params]
+languageTag = "es"
+
+[et]
+contentDir = "content/et"
+languageName = "Estonian"
+weight = 50
+[et.params]
+languageTag = "et"
+
+[fi]
+contentDir = "content/fi"
+languageName = "Finnish"
+weight = 55
+[fi.params]
+languageTag = "fi"
+
+[fr]
+contentDir = "content/fr"
+languageName = "French"
+weight = 60
+[fr.params]
+languageTag = "fr"
+
+[hu]
+contentDir = "content/hu"
+languageName = "Hungarian"
+weight = 65
+[hu.params]
+languageTag = "hu"
+
+[id]
+contentDir = "content/id"
+languageName = "Indonesian"
+weight = 70
+[id.params]
+languageTag = "id"
+
+[it]
+contentDir = "content/it"
+languageName = "Italian"
+weight = 75
+[it.params]
+languageTag = "it"
+
+[ja]
+contentDir = "content/ja"
+languageName = "Japanese"
+weight = 80
+[ja.params]
+languageTag = "ja"
+
+[lt]
+contentDir = "content/lt"
+languageName = "Lithuanian"
+weight = 85
+[lt.params]
+languageTag = "lt"
+
+[lv]
+contentDir = "content/lv"
+languageName = "Latvian"
+weight = 90
+[lv.params]
+languageTag = "lv"
+
+[nl]
+contentDir = "content/nl"
+languageName = "Dutch"
+weight = 95
+[nl.params]
+languageTag = "nl"
+
+[pl]
+contentDir = "content/pl"
+languageName = "Polish"
+weight = 100
+[pl.params]
+languageTag = "pl"
+
+[pt-br]
+contentDir = "content/pt-br"
+languageName = "Portuguese Br"
+weight = 105
+[pt-br.params]
+languageTag = "pt-br"
+
+[pt-pt]
+contentDir = "content/pt-pt"
+languageName = "Portuguese"
+weight = 110
+[pt-pt.params]
+languageTag = "pt-pt"
+
+[ro]
+contentDir = "content/ro"
+languageName = "Romanian"
+weight = 115
+[ro.params]
+languageTag = "ro"
+
+[ru]
+contentDir = "content/ru"
+languageName = "Russian"
+weight = 120
+[ru.params]
+languageTag = "ru"
+
+[sk]
+contentDir = "content/sk"
+languageName = "Slovak"
+weight = 125
+[sk.params]
+languageTag = "sk"
+
+[sl]
+contentDir = "content/sl"
+languageName = "Slovenian"
+weight = 130
+[sl.params]
+languageTag = "sl"
+
+[sv]
+contentDir = "content/sv"
+languageName = "Swedish"
+weight = 135
+[sv.params]
+languageTag = "sv"
+
+[tr]
+contentDir = "content/tr"
+languageName = "Turkish"
+weight = 140
+[tr.params]
+languageTag = "tr"
+
+[zh]
+contentDir = "content/zh"
+languageName = "Chinese"
+weight = 145
+[zh.params]
+languageTag = "zh"
