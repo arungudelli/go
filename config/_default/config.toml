@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://golangtutorial.dev/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
