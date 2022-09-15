@@ -6,10 +6,11 @@ draft: false
 type: docs
 link: "Code Editors"
 weitht: 2
+image: "images/featured/golangpostimage.png"
+
 ---
 
 
-image: "images/featured/golangpostimage.png"
 
 
 A Code editor is a basic programming tool, where we will write and edit program's source code.
