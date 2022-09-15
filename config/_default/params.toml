@@ -16,7 +16,7 @@ domainTLD = "doks.netlify.app"
 titleHome = "Python Shiksha"
 
 ## Twitter Cards
-twitterSite = "@getdoks"
+twitterSite = "@golang_tutorial"
 twitterCreator = "@arungudelli"
 
 ## JSON-LD

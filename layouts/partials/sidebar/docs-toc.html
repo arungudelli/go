@@ -10,8 +10,10 @@
   <div class="collapse" id="onThisPage">
     <div class="card card-body mt-3 py-1">
       <div class="page-links">
-        hi
-        {{ .TableOfContents }}
+        {{ $toc := replace .TableOfContents "<li>" "<strong><li>" }}
+          {{ $toc := replace $toc "</li>" "</li></strong>" }}
+      
+          {{ $toc | safeHTML  }}
       </div>
     </div>
   </div>
