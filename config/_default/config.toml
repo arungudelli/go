@@ -1,4 +1,4 @@
-baseurl = "https://ephemeral-bublanina-70caa4.netlify.app/"
+baseurl = "/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true

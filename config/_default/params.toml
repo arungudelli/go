@@ -1,10 +1,10 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Python Shiksha"
+title = "Go language Tutorial"
 titleSeparator = "-"
-titleAddition = "Step by Step Guide to learn Python language"
-description = "Learn Python from basics to advanced topics with simple detailed tutorials and examples."
+titleAddition = "Step by Step Tutorial to learn Go language"
+description = "Learn Go language from basics to advanced topics with simple detailed tutorials and examples."
 
 ## Documentation
 # docsVersion = "0.3"
@@ -22,7 +22,7 @@ twitterCreator = "@arungudelli"
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
-schemaName = "Python Shiksha"
+schemaName = "Go language Tutorial"
 schemaAuthor = "Arunkumar Gudelli"
 schemaAuthorTwitter = "https://twitter.com/arungudelli"
 schemaAuthorLinkedIn = "https://www.linkedin.com/in/arungudelli/"
@@ -34,9 +34,9 @@ schemaLogoHeight = 512
 schemaImage = "doks.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/getdoks"
+schemaTwitter = "https://twitter.com/golang_tutorial"
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/arungudelli/python.shiksha"
+schemaGitHub = "https://github.com/arungudelli/go"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -80,7 +80,7 @@ alertText = "Introducing the Doks child theme, several DX + UX updates, and more
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
 repoHost = "GitHub"
 #repoHost = "Gitea"
-docsRepo = "https://github.com/arungudelli/python.shiksha"
+docsRepo = "https://github.com/arungudelli/go"
 docsRepoBranch = "master"
 docsRepoSubPath = ""
 editPage = false
