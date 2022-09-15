@@ -4,7 +4,7 @@ description: "We will start learning Go programming language, by writing simple 
 date: 03-09-2020T23:19:47
 lastmod: 03-09-2020T23:19:47
 draft: false
-weight: -6
+weight: -280
 collapsible: false
 type: docs
 menu:

@@ -5,7 +5,7 @@ date: 2020-09-05T14:09:21+09:00
 draft: false
 type: docs
 link: "Windows"
-weight: 1
+weight: -300
 ---
 
 To download and install Go language in Windows OS follow the below steps.
