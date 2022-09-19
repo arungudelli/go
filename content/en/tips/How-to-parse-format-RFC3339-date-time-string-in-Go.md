@@ -91,4 +91,4 @@ The date time format string taken from [here](https://pkg.go.dev/time#pkg-consta
 
 Do not prefer this method.
 
-The date time format "2006-01-02T15:04:05Z07:00" is nothing but the value of `time.RFC3339`.
+The date time format "2006-01-02T15:04:05Z07:00" is nothing but the value of `time.RFC3339` constant.
