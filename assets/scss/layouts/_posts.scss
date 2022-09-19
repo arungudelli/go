@@ -130,3 +130,21 @@ ul.network-icon {
 .network-icon li {
   margin-right: 5px;
 }
+
+.newsletter .discord{
+  margin-right: 5px;
+}
+
+.newsletter .card-title{
+  text-align: center;
+}
+
+.newsletter .card-body{
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+}
+
+.newsletter ul{
+  justify-content: center;
+}
