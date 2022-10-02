@@ -32,17 +32,22 @@
   name = "Tips"
   url = "/tips/"
 # url = "/docs/1.0/prologue/introduction/"
-  weight = 10
+  weight = 6
 
   [[main]]
   name = "News"
   url = "/news/"
-  weight = 11  
+  weight = 7  
 
     [[main]]
   name = "Learn"
   url = "/learn/"
-  weight = 9  
+  weight = 5  
+
+  [[main]]
+  name = "Ds & Algo Problems"
+  url = "/problems/"
+  weight = 8 
 
 #[[main]]
 #  name = "Docs"
