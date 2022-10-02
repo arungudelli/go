@@ -65,7 +65,7 @@ Algorithm or approach explanation
 
 Use simple english to explain the soultion.
 
-Then write python code 
+Then write Go code 
 
 Add Time Complexity and Space complexity (if applicable)
 
@@ -75,7 +75,7 @@ Algorithm or approach explanation
 
 Use simple english to explain the soultion.
 
-Then write python code 
+Then write Go code 
 
 Add Time Complexity and Space complexity (if applicable)
 
