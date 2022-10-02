@@ -9,13 +9,13 @@ images: []
 type: docs
 ---
 
-In this Tutorial we write a `Go` program to check if two string are anagrams are not. 
+In this Tutorial we will write a `Go` program to check if two string are anagrams are not. 
 
 An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase.
 
 ## Problem Statement 
 
-Given two strings `source` and `target`. write a `Go` function to check whether the given strings are anagrams of each other or not. 
+Given two strings `source` and `target`, write a `Go` function to check whether the given strings are anagrams of each other or not. 
 
 If both are anagrams return `true` else `false`.
 
@@ -50,6 +50,8 @@ Output: true
 ```
 
 ## Approach 1: Using Sorting
+
+To check if strings are anagram of each other in `Go`, we can sort the both strings then check they are equal or not.
 
 ### Algorithm 
 
@@ -94,7 +96,7 @@ func CheckIfStringsAreAnagram(source string, target string) bool {
 }
 ```
 
-If you convert to `[]byte` we can use `bytes.Equal()` function in `Go` to check if both arrays are equal or not.
+If you convert to `[]byte` array, we can use `bytes.Equal()` function in `Go` to check if both arrays are equal or not.
 
 ```go
 func CheckIfStringsAreAnagram(s string, t string) bool {
