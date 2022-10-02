@@ -29,6 +29,8 @@ http://localhost:1313/
 
 Fork the repository and create pull request
 
+**It's not simply writing the programs write the detailed explaination about the soultion, so that it will be helpful to others**
+
 To contribute to DS & algo problems 
 
 1. Add a new mark down file `(.md)` file with the issue name, For example `two-sum-problem.md` inside `content/en/problems/` folder.
