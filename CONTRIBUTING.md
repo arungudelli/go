@@ -1,5 +1,9 @@
 # Contributing to https://golangtutorial.dev/
 
+After successful submission you will get author profile in our website [https://golangtutorial.dev/]. 
+
+Post credit will be given to you only.
+
 ## Clone golang tutorial 
 
 ```
