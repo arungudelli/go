@@ -35,7 +35,11 @@ Fork the repository and create pull request
 
 **It's not simply writing the programs write the detailed explaination about the soultion, so that it will be helpful to others**
 
-To contribute to DS & algo problems 
+Have a look at the string anagram problem 
+
+Structure : [https://github.com/arungudelli/go/blob/main/content/en/problems/string-anagram-go.md](https://github.com/arungudelli/go/blob/main/content/en/problems/string-anagram-go.md)
+
+[https://golangtutorial.dev/problems/string-anagram-go/](https://golangtutorial.dev/problems/string-anagram-go/)
 
 1. Add a new mark down file `(.md)` file with the issue name, For example `two-sum-problem.md` inside `content/en/problems/` folder.
 2. Start the file with the below HUGO markup 
