@@ -1,5 +1,5 @@
 ---
-title: "Check if two strings are anagrams in Go"
+title: " 3 ways to Check if two strings are anagrams in Go"
 description: "Different ways to check if two strings are anagrams or not in Go language"
 lead: ""
 date: 2022-01-25T14:40:56+01:00
