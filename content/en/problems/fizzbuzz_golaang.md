@@ -26,33 +26,20 @@ toc: true
 
 We are implementing the conditions according to the problem byusing if else ladder.
 
-
-#include <iostream>                    //iostream is a header file which contains basic input/output functions.
-using namespace std;
-
-int main() {
-    int N;                             //Declaring variables a and b as double.
-    cin >> N;                          //Taking input of a and b.
-    string answer[N+1];
-
-    for (int i = 1; i <= N; i++)       //for loop to iterate from 1 to N
-    {
-        if(i%3 == 0 && i%5 == 0)       //if i is divisible by 3 and 5
-            answer[i] = "FizzBuzz";  
-        else if(i%3 == 0)              //if i is divisible by 3
-            answer[i] = "Fizz";
-        else if(i%5 == 0)              //if i is divisible by 5
-            answer[i] = "Buzz";
-        else                           //if none of the above conditions are true
-            answer[i] = to_string(i);
+func fizzBuzz(n int) []string {
+    var ans = make([]string, n)                 //Declaring variables ans as array of string of size n.
+    for i := 1; i <= n; i ++ {                  //for loop to iterate from 1 to N
+        if i % 15 == 0 {                        //if i is divisible by 3 and 5 i.e. by 15
+            ans[i - 1] = "FizzBuzz"
+        } else if i % 3 == 0 {                  //if i is divisible by 3 
+            ans[i - 1] = "Fizz"
+        } else if i % 5 == 0 {                  //if i is divisible by 5
+            ans[i - 1] = "Buzz"
+        } else {                                //if none of the above conditions are true      
+            ans[i - 1] = strconv.FormatInt(int64(i), 10)
+        }
     }
-
-    for (int i = 1; i <=N; i++)        //printing the answer array
-        cout << answer[i] << endl;
-    
-    
-    return 0;                           //Return 0 to indicate that the program ended successfully.
-    //End of program
+    return ans
 }
 
 Time Complexity : O(N)
