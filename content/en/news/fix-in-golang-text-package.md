@@ -52,3 +52,9 @@ func ParseAcceptLanguage(s string) (tag []Tag, q []float32, err error) {
 
 With the above fix `ParseAcceptLanguage` function reject excessively large `Accept-Language` strings.
 
+## Official announcement
+
+Here is the Official announcement regarding this fix in `golang.org/x/text/language` package
+
+[Official announcement](https://groups.google.com/g/golang-dev/c/qfPIly0X7aU/m/NR_qVahPCAAJ)
+
