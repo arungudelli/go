@@ -139,6 +139,8 @@ The `func` keyword declares a function in `go`.
 
 In this program we are declaring a function named `main()`.
 
+Like other programming languages, the body of the `go` functions are enclosed in curly braces `{}`.
+
 `main()` function is very important function inside package `main`.
 
 It's where the execution of the program starts.
