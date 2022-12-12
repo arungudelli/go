@@ -117,9 +117,31 @@ func main() {
 
 There is no practical use case of nested comments. 
 
+## Bad comments
+
+Even though comments are nice way to describe functionality of the code, but some programmers often use them wrongly.
+
+```go
+/*
+The line 1 will do this () and line 10 do that thing and so on.... 
+This variable is used to do this thing etc... 
+*/
+SomeComplexCode()
+```
+
+Such comments in the code should be minimal.
+
+There is a rule about comments "If the code is so unclear that it requires a comment, then maybe it should be rewritten instead". 
+
+A good written code will contain minimal comments and should be easy to understand without them.
+
+As said in the start of the article, **We should write meaningful comments not just comments.** 
+
+
 ## Summary
 
 1. There are two types of comments in `go`, one liner and multiline comments.
 2. one-line comments start with two forward slash characters `//`.
 3. multiline comments start with a forward slash and an asterisk `/*` and end with an asterisk and a forward slash `*/`.
 4. Nested comments are not supported.
+5. Write meaningful comments.
