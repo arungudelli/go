@@ -57,9 +57,18 @@
   {{ end -}}
 {{ end -}}
 
-{{ with $.Site.Params.images -}}
+<!-- {{ with $.Site.Params.images -}}
   {{ $.Scratch.Set "primaryImage" (index . 0 | absURL) -}}
-{{ end -}}
+{{ end -}} -->
+
+{{ with $.Params.images -}}
+  {{ $.Scratch.Set "primaryImage" (index . 0 | absURL) -}}
+{{ else }}
+  {{ with $.Site.Params.images -}}
+     {{ $.Scratch.Set "primaryImage" (index . 0 | absURL) -}}
+  {{ end -}}
+{{ end }}
+
 
 {{ with .Params.audio -}}
   <meta property="og:audio" content="{{ . | absURL }}">
