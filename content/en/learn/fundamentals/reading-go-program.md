@@ -7,6 +7,7 @@ draft: false
 weight: -279
 collapsible: false
 type: docs
+images: ["images/featured/Read-Go-Program.png"]
 menu:
   learn:
     parent: "fundamentals"
