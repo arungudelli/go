@@ -16,6 +16,8 @@
   {{ end -}}
 {{ end -}}
 
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -135,7 +137,7 @@
         }{{ end }}]
     },
 
-    {{ if and (eq .Kind "page") (or (eq .Section "blog") (eq .Section "docs") (eq .Section "tips") (eq .Section "tutorial") (eq .Section "showcase")) -}}
+    {{ if and (eq .Kind "page") (or (eq .Section "blog") (eq .Type "docs") (eq .Section "tips") (eq .Section "tutorial") (eq .Section "showcase")) -}}
     {
       "@context": "https://schema.org",
       "@graph": [

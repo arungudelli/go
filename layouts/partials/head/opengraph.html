@@ -36,7 +36,9 @@
 
 {{ with $.Params.images -}}
   {{ range first 6 . -}}
-  <meta property="og:image" content="{{ $.Permalink }}{{ . }}">
+  <!-- <meta property="og:image" content="{{ $.Permalink }}{{ . }}"> -->
+  <meta property="og:image" content="{{ .  | absURL }}"/>
+
   {{ end -}}
 {{ else -}}
   {{ $images := $.Resources.ByType "image" -}}
@@ -48,15 +50,25 @@
     <meta property="og:image" content="{{ $featured.Permalink }}"/>
   {{ else -}}
     {{ with $.Site.Params.images -}}
+
       <meta property="og:image" content="{{ index . 0 | absURL }}"/>
       <meta property="og:image:alt" content="{{ $.Site.Params.title }}">
     {{ end -}}
   {{ end -}}
 {{ end -}}
 
-{{ with $.Site.Params.images -}}
+<!-- {{ with $.Site.Params.images -}}
   {{ $.Scratch.Set "primaryImage" (index . 0 | absURL) -}}
-{{ end -}}
+{{ end -}} -->
+
+{{ with $.Params.images -}}
+  {{ $.Scratch.Set "primaryImage" (index . 0 | absURL) -}}
+{{ else }}
+  {{ with $.Site.Params.images -}}
+     {{ $.Scratch.Set "primaryImage" (index . 0 | absURL) -}}
+  {{ end -}}
+{{ end }}
+
 
 {{ with .Params.audio -}}
   <meta property="og:audio" content="{{ . | absURL }}">
