@@ -133,6 +133,27 @@ func Printf(format string, a ...any) (n int, err error)
     encountered.
 ```
 
+And let's remove or comment out the `fmt.Println()` statement. 
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	//fmt.Println("Hello! World")
+}
+
+```
+
+You will get `imported and not used: "fmt"` error. 
+
+The `go` compiler is saying that the `fmt` package is imported but not used. 
+
+That means every `go` program that imports a package must use that package in the code. 
+
+It helps in maintaining the `go` source code. If the package is not useful and there is no point in importing it in the source code.
+
 ## `func main()`
 
 The `func` keyword declares a function in `go`. 
@@ -164,5 +185,6 @@ If there is no `main()` function the compiler does not know where to start the p
 1. `main` is an executable package.
 2. `func` keyword used to declare the functions in `go`
 3. To include other packages in the programs we should use `import` keyword.
-4. Package `main` must declare function `main()`.
-5. The `go` program execution starts from the `main()` function.
+4. If you import a package, then we must use it in some way in the code.
+5. Package `main` must declare function `main()`.
+6. The `go` program execution starts from the `main()` function.
