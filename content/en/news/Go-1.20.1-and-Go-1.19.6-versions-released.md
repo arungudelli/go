@@ -74,8 +74,6 @@ For more details visit following github issue.
 
 [https://github.com/golang/go/issues/58006](https://github.com/golang/go/issues/58006)
 
-[Josselin Costanzi](https://mobile.twitter.com/jossctz) reported this issue.
-
 Thanks to [Ameya Darshan](https://twitter.com/0xtakemyhand) and  [Jakob Ackermann](https://github.com/das7pad) for reporting this issue.
 
 The following commit fixes the above issues.
@@ -107,7 +105,7 @@ Where possible I've tried to use helpers that reduce the verbosity of frequently
 
 For more details visit following github issue.
 
-(https://github.com/golang/go/issues/58001)[https://github.com/golang/go/issues/58001]
+[https://github.com/golang/go/issues/58001](https://github.com/golang/go/issues/58001)
 
 Thanks to [Marten Seemann](https://github.com/marten-seemann) for reporting this issue.
 
