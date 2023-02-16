@@ -74,7 +74,7 @@ For more details visit following github issue.
 
 [https://github.com/golang/go/issues/58006](https://github.com/golang/go/issues/58006)
 
-Thanks to [Ameya Darshan](https://twitter.com/0xtakemyhand) and  [Jakob Ackermann](https://github.com/das7pad) for reporting this issue.
+Thanks to [Arpad Ryszka](https://github.com/aryszka) and  [Jakob Ackermann](https://github.com/das7pad) for reporting this issue.
 
 The following commit fixes the above issues.
 
