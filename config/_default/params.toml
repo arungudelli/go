@@ -81,9 +81,9 @@ alertText = "Introducing the Doks child theme, several DX + UX updates, and more
 repoHost = "GitHub"
 #repoHost = "Gitea"
 docsRepo = "https://github.com/arungudelli/go"
-docsRepoBranch = "master"
+docsRepoBranch = "main"
 docsRepoSubPath = ""
-editPage = false
+editPage = true
 lastMod = false
 
 # Set site log or disable

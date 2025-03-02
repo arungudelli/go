@@ -25,7 +25,7 @@ Create a file named `hello_world.go`.
 
 Copy paste the below hello world program which will print "Hello! World" message in the command prompt.
 
-```
+```go
 package main
 
 import "fmt"
