@@ -4,7 +4,8 @@
 <meta name="twitter:title" content="{{ .Title }}">
 <meta name="twitter:description" content="{{ .Description }}">
 {{ with $.Params.images -}}
-  <meta name="twitter:image" content="{{ $.Permalink }}{{ index . 0 }}">
+  <!-- <meta name="twitter:image" content="{{ $.Permalink }}{{ index . 0 }}"> -->
+  <meta name="twitter:image" content="{{ $.Site.BaseURL }}{{ index . 0 }}">
 {{ else -}}
   {{ $images := $.Resources.ByType "image" -}}
   {{ $featured := $images.GetMatch "*feature*" -}}

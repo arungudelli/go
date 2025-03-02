@@ -33,10 +33,10 @@
 {{ else -}}
   {{ .Scratch.Set "title" .Title -}}
 {{ end -}}
-
 {{ with $.Params.images -}}
   {{ range first 6 . -}}
-  <meta property="og:image" content="{{ $.Permalink }}{{ . }}">
+  <!-- <meta property="og:image" content="{{ $.Permalink }}{{ . }}"> -->
+  <meta property="og:image" content="{{ $.Site.BaseURL }}{{ . }}">
   {{ end -}}
 {{ else -}}
   {{ $images := $.Resources.ByType "image" -}}
@@ -54,7 +54,11 @@
   {{ end -}}
 {{ end -}}
 
-{{ with $.Site.Params.images -}}
+<!-- {{ with $.Site.Params.images -}}
+  {{ $.Scratch.Set "primaryImage" (index . 0 | absURL) -}}
+{{ end -}} -->
+
+{{ with $.Params.images -}}
   {{ $.Scratch.Set "primaryImage" (index . 0 | absURL) -}}
 {{ end -}}
 

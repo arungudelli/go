@@ -5,6 +5,7 @@ description = "In this blog post, we'll explore 5 different ways to print struct
 draft = "false"
 link = "Print Struct Variables"
 authorurl="https://www.arungudelli.com/"
+images=["images/PrintingStructVariables.webp"]
 
 +++
 
@@ -13,6 +14,18 @@ In the Go programming language, structs are a powerful way to group related data
 Often, you may need to print struct variables for debugging or logging purposes. 
 
 In this blog post, we'll explore 5 different ways to print struct variables in Go with examples.
+
+{{< figure
+  process="fill 2100x900"
+  lqip="21x webp q20"
+  loading="lazy"
+  fetchpriority="auto" 
+  sizes="auto"
+  src="images/PrintingStructVariables.webp"
+  alt="Print Struct Variables"
+  caption="Print Struct Variables"
+>}}
+
 
 ## 1.Using `fmt.Println`
 
