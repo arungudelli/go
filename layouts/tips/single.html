@@ -26,6 +26,11 @@
 			{{ end }}
 			<h1>{{ .Title }}</h1>
 			<p class="lead">{{ .Params.lead | safeHTML }}</p>
+			<p><span class="publishedDate"><b>Published:</b> {{ .Date | time.Format "Jan 2, 2006" }}</span>
+			{{ if .Lastmod }}
+			<span class="updatedDate"><b>Last Updated:</b> {{ .Lastmod | time.Format "Jan 2, 2006" }}</span>
+			{{ end }}
+		    </p>
 			{{ if ne .Params.toc false -}}
 			<nav class="d-xl-none" aria-label="Quaternary navigation">
 				{{ partial "sidebar/docs-toc.html" . }}

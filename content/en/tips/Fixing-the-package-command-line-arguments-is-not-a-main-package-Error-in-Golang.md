@@ -2,7 +2,7 @@
 title: 'Fixing the "package command-line-arguments is not a main package" Error in Golang'
 description: 'Fixing the "package command-line-arguments is not a main package" Error in Go'
 date: 2025-03-04T00:00:00+00:00
-lastmod: 2025-04-01T00:00:00+00:01
+lastmod: 2025-03-01T00:00:00+00:01
 draft: false
 images: ["images/package-command-line-arguments-is-not-a-main-package.webp"]
 toc: true

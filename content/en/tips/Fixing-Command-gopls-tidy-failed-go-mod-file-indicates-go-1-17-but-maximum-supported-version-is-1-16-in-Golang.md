@@ -2,7 +2,7 @@
 title: "Fixing Command 'gopls.tidy' failed: go.mod file indicates go 1.17, but maximum supported version is 1.16 in Golang"
 description: "Fixing Command 'gopls.tidy' failed: go.mod file indicates go 1.17, but maximum supported version is 1.16 in Golang"
 date: 2025-03-04T00:00:00+00:00
-lastmod: 2025-04-01T00:00:00+00:01
+lastmod: 2025-03-04T00:00:00+00:01
 draft: false
 images: ["images/Command-gopls-tidyfailed-go-mod-file-indicates-go-1-17-but-maximum-supported-version-is-1-16.webp"]
 toc: true
