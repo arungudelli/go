@@ -371,6 +371,9 @@ go build
 
 Everything worked as expected, proving that managing and updating Go modules can be streamlined with these commands.
 
+Here is the Github link for the example
+
+[https://github.com/arungudelli/go-update-module-demo](https://github.com/arungudelli/go-update-module-demo)
 
 ## Key Takeaways
 
