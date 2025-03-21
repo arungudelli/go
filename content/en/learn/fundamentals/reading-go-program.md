@@ -1,8 +1,8 @@
 ---
 title: "Reading a Go Program"
 description: "Understanding Go Program"
-date: 14-10-2022T23:19:47
-lastmod: 14-10-2022T23:19:47
+date: 2021-02-28T00:00:00+00:00
+lastmod: 2025-02-28T00:00:00+00:00
 draft: false
 weight: -279
 collapsible: false
