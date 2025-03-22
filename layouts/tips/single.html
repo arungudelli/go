@@ -50,14 +50,7 @@
 				{{ end -}}
 			</div>
 
-			
-
-			
-
-
-			
-
-			{{ $path := printf "/authors/%s.md" .Params.author }}
+			{{ $path := printf "/authors/%s" .Params.author }}
 
 			{{ with .Site.GetPage $path }}
 
