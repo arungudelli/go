@@ -1,11 +1,12 @@
 ---
 title: "Writing Your First Go Program Hello World 👋"
-description: "We will start learning Go programming language, by writing simple Hello World program"
+description: "Learn how to write your first Go program by creating a simple 'Hello, World!' app. Set up a Go module, write clean Go code, and run it using the Go CLI — perfect for beginners starting with Go in a real project structure"
 date: 2021-02-28T00:00:00+00:00
 lastmod: 2025-02-28T00:00:00+00:00
 draft: false
 weight: -280
 collapsible: false
+images: ["images/hello_world.webp"]
 type: docs
 menu:
   learn:
@@ -16,6 +17,18 @@ menu:
 Learning a new programming language is always exciting! In this guide, we’ll walk through writing your first Go (Golang) program, covering the key components that make up a basic Go application. 
 
 If you don’t understand everything right away, don’t worry—this is just the beginning of your journey with Go.
+
+{{< figure
+  process="fill 2100x900"
+  lqip="21x webp q20"
+  loading="lazy"
+  fetchpriority="auto" 
+  sizes="auto"
+  src="images/hello_world.webp"
+  alt="Go Program Hello World"
+  caption="Go Program Hello World"
+>}}
+
 
 ## Go Hello World 
 
@@ -185,7 +198,9 @@ D:.
 - ✅ Wrote your first Go program
 - ✅ Learned how to build and run Go code
 
-This is just the beginning. Up next, you’ll dive into variables, functions, loops, conditionals, and more. Stay curious and keep coding! 🚀
+This is just the beginning. Stay tuned for more tutorials in the [go-learning GitHub repo](https://github.com/arungudelli/go-learning) as we dive deeper into Go’s core features like functions, loops, and structs.
+
+Stay curious and keep coding! 🚀
 
 
 
