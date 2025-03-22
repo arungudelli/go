@@ -4,7 +4,7 @@ date = "2025-03-22T00:00:00+00:00"
 lastmod = "2025-03-22T00:00:00+09:00"
 description = "How to Change the Go Build Executable Name and output path"
 draft = "false"
-image= "images/go-build-executable-name-path.webp"
+images= ["images/go-build-executable-name-path.webp"]
 author="arungudelli"
 
 +++
