@@ -1,14 +1,13 @@
 +++
 title = "Multiline Strings in Golang: A Learning Experience"
 date = "2021-01-23T14:09:21+09:00"
-description = "To create or write multiline strings in Go, use the backtick (`) character while declaring or assigning value to the string."
+lastmod = "2025-04-12T00:00:00+00:00"
+description = "Go provides two ways to handle multiline strings 1. Backticks 2.Double Quotes"
 draft = "false"
 link = "multiline strings"
 enableToc = false
 image= "images/featured/golangpostimage.png"
-authorurl="https://www.arungudelli.com/"
-
-
+author="arungudelli"
 +++
 
 Recently, while learning Golang, I encountered a situation where I needed to store a large block of text within my code. 

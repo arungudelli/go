@@ -31,6 +31,7 @@
 			<span class="updatedDate"><b>Last Updated:</b> {{ .Lastmod | time.Format "Jan 2, 2006" }}</span>
 			{{ end }}
 		</i></p>
+		<hr/>
 			{{ if ne .Params.toc false -}}
 			<nav class="d-xl-none" aria-label="Quaternary navigation">
 				{{ partial "sidebar/docs-toc.html" . }}
