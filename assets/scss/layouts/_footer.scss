@@ -18,3 +18,26 @@
     font-size: $font-size-base;
   }
 }
+
+#subscriptionPopup{
+  display: none; 
+  position: fixed; 
+  top: 20%; 
+  left: 50%;
+  transform: translateX(-50%);
+  background: white; 
+  border: 1px solid #ccc; 
+  padding: 20px; 
+  z-index: 1000; 
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+#popupButtonClose{
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
